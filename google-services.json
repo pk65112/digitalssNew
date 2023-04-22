@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "754017214503",
+    "project_id": "digitalsubstation-f82f7",
+    "storage_bucket": "digitalsubstation-f82f7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:754017214503:android:edd29458213d5c6cb0ae02",
+        "android_client_info": {
+          "package_name": "com.digitalss.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "754017214503-ok68mfhrspuje22914e760607j1dfj2h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqYkzDqEN896cB_4JmCe3dB6UUDx-XZbY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "754017214503-ok68mfhrspuje22914e760607j1dfj2h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

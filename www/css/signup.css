@@ -1,0 +1,123 @@
+body {
+    background-color: aliceblue;
+    display: grid;
+    grid: auto/ auto;
+    gap: 2em;
+ 
+ }
+ 
+ #logoimg{
+     width: 100%;
+     height: auto;
+ }
+ header{
+     background-color: #dfd4c5;
+     padding: 1em;
+     border-radius: 1em 1em 4rem 4rem;
+     display: grid;
+    
+ 
+ 
+ }
+ #welcome{
+     font-size: 5.5vw;
+     color: #094fa5;
+     margin: opx;
+     padding: 0px;
+     border: none;
+     text-align: center;
+     animation: blinker 3s linear infinite;
+ }
+ @keyframes blinker {
+ 
+     0% {
+       opacity: 1;
+       color: #c4d8f1;
+     }
+     20% {
+         opacity: 1;
+         color: #62a2f1;
+       }
+       40% {
+         opacity: 1;
+         color: #0972f1;
+       }
+       60% {
+         opacity: 1;
+         color: #0972f1;
+       }
+       80% {
+         opacity: 1;
+         color: #62a2f1;
+       }
+       100% {
+         opacity: 1;
+         color: #c4d8f1;
+       }
+   }
+   h2 {
+     font-size: 5vw;
+     text-align: center;
+     color: #563304;
+   }
+   h1 {
+    
+    text-align: center;
+    color: #563304;
+  }
+   section{
+     border: 1px solid red;
+     border-radius: 4%;
+   }
+   #dvrimg{
+    height: 100px;
+    width: 80px;
+ }
+ #dvrsign{
+  height: 50px;
+  width: 150px;
+ }
+ .hints{
+  text-align: center;
+  font-size: small;
+ }
+ .btn{
+  text-align: center;
+  margin: 5px 5px
+ }
+   
+   .sec1{
+     text-align: left;
+     margin: 5px 5px
+   }
+   .sec2{
+    text-align: center;
+    margin: 5px 5px
+  }
+   #btn1{
+    text-align: center;
+    margin: 25px 5px
+   }
+   #btnsignup{
+     text-align: center;
+     border-radius: 10%;
+     margin-top: 15px;
+     border: 1px solid red;
+     background-color: #e0890e;
+ 
+   }
+   #btnsignup:hover{
+     cursor:pointer;
+     background-color: #62a2f1;
+   }
+   #btnsignup:active{
+     cursor:progress;
+     background-color: #afb0b1;
+   }
+   .foot1{
+     margin-top: 7px;
+     text-align: center;
+   }
+   select{
+    margin: 4px;
+   }

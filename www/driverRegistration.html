@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <meta name="color-scheme" content="light dark">
+        <link rel="stylesheet" href="css/driverRegistration.css">
+        <title>Vehicle Registration</title>
+    </head>
+    <body>
+        <header>
+            <div id="logodiv">
+                <img src="img/logoWithoutBg.png" id="logoimg" alt="POWERGRID">
+            </div>
+            
+
+            <div>
+                <h2 id="welcome">New Vehicle Registration</h1>
+            </div>
+            
+
+        </header>
+        <section>
+            <div class="sec2">
+               <img id="dvrimg" src="" alt="">
+            </div>
+            <div id="btn2" class="btn">
+                <button id="btnDvrPhoto">Take Photo</button>
+            </div>
+            <div class="sec2">
+                <img id="dvrsign" src="" alt="">
+             </div>
+             <div class="hints">Image size Should not be greater than 120 px X 30 Px</div>
+             <div id="btn4" class="btn">
+                <button id="btnDvrsignSelect">Select</button>
+            </div>
+             <div id="btn3" class="btn">
+                 <button id="btnDvrsign">Upload</button>
+             </div>
+            
+            <div class="sec1">
+                <label for="dvrName">Driver Name :</label>
+            </div>
+            <div class="sec1">
+                <input type="text" id="dvrName" class="loginItem" name="dvrName" >
+            </div>
+            <div class="sec1">
+                <label for="license">Driving License No :</label>
+            </div>
+            <div class="sec1">
+                <input type="text" id="license" class="loginItem" name="license" >
+            </div>
+            <div class="sec1">
+                <label for="validfrom">Valid From :</label>
+            </div>
+            <div class="sec1">
+                <input type="date" id="validfrom" class="loginItem" name="validfrom" >
+            </div>
+            <div class="sec1">
+                <label for="validUpto">Valid Upto :</label>
+            </div>
+            <div class="sec1">
+                <input type="date" id="validUpto" class="loginItem" name="validUpto" >
+            </div>
+            <div class="sec1">
+                <label for="assignVehicle">Assigned Vehicle No :</label>
+            </div>
+            <div class="sec1">
+                <select name="assignVehicle" id="assignVehicle">
+                    <option value="Choose">Choose Vehicle</option>
+                    <option value="A">A</option>
+                    
+                </select>
+            </div>
+            <div class="sec1">
+                <label for="mobile">Mobile No :</label>
+            </div>
+            <div class="sec1">
+                <input type="number" id="mobile" class="loginItem" name="mobile" >
+            </div>
+            <div class="sec1">
+                <label for="mobile2">Alternative Mobile No :</label>
+            </div>
+            <div class="sec1">
+                <input type="number" id="mobile2" class="loginItem" name="mobile2" >
+            </div>
+           
+            <div id="btn1">
+                <button id="btnVehReg">Submit</button>
+            </div>
+
+        </section>
+        <footer>
+          
+            <span>Copy Right @ POWERGRID</span>
+
+        </footer>
+        
+        </div>
+        <script src="cordova.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>

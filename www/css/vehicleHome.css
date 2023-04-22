@@ -1,0 +1,91 @@
+body {
+    background-color: aliceblue;
+    display: grid;
+    grid: auto/ auto;
+    gap: 2em;
+ 
+ }
+ 
+ #logoimg{
+     width: 100%;
+     height: auto;
+ }
+ header{
+     background-color: #dfd4c5;
+     padding: 1em;
+     border-radius: 1em 1em 4rem 4rem;
+     display: grid;
+    
+ 
+ 
+ }
+ #welcome{
+     font-size: 5.5vw;
+     color: #094fa5;
+     margin: opx;
+     padding: 0px;
+     border: none;
+     text-align: center;
+     animation: blinker 3s linear infinite;
+ }
+ @keyframes blinker {
+ 
+     0% {
+       opacity: 1;
+       color: #c4d8f1;
+     }
+     20% {
+         opacity: 1;
+         color: #62a2f1;
+       }
+       40% {
+         opacity: 1;
+         color: #0972f1;
+       }
+       60% {
+         opacity: 1;
+         color: #0972f1;
+       }
+       80% {
+         opacity: 1;
+         color: #62a2f1;
+       }
+       100% {
+         opacity: 1;
+         color: #c4d8f1;
+       }
+   }
+   h2 {
+     font-size: 5vw;
+     text-align: center;
+     color: #563304;
+   }
+   h1 {
+    
+    text-align: center;
+    color: #563304;
+  }
+   section{
+     border: 1px solid red;
+     border-radius: 4%;
+   }
+   
+   
+   .iconImg{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+   }
+   .icon{
+    display: inline-block;
+    width: 60px;
+    height: 74px;
+    border: #cde0f7 solid 1px;
+    margin: 4px;
+    border-radius: 5px;
+    text-align: center;
+    
+   }
+   .iconName{
+    font-size: small;
+   }

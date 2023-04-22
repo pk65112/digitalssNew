@@ -1,0 +1,116 @@
+
+
+
+body {
+   background-color: aliceblue;
+   display: grid;
+   grid: 1fr 1fr 1fr / auto;
+   gap: 2em;
+
+}
+
+#logoimg{
+    width: 100%;
+    height: auto;
+}
+header{
+    background-color: #dfd4c5;
+    padding: 1em;
+    border-radius: 1em 1em 4rem 4rem;
+    display: grid;
+   
+
+
+}
+#welcome{
+    font-size: 5.5vw;
+    color: #094fa5;
+    margin: opx;
+    padding: 0px;
+    border: none;
+    text-align: center;
+    animation: blinker 3s linear infinite;
+}
+@keyframes blinker {
+
+    0% {
+      opacity: 1;
+      color: #c4d8f1;
+    }
+    20% {
+        opacity: 1;
+        color: #62a2f1;
+      }
+      40% {
+        opacity: 1;
+        color: #0972f1;
+      }
+      60% {
+        opacity: 1;
+        color: #0972f1;
+      }
+      80% {
+        opacity: 1;
+        color: #62a2f1;
+      }
+      100% {
+        opacity: 1;
+        color: #c4d8f1;
+      }
+  }
+  h2 {
+    font-size: 5vw;
+    text-align: center;
+    color: #563304;
+  }
+  section{
+    border: 1px solid red;
+    border-radius: 4%;
+  }
+  #letLogin{
+    text-align: center;
+    animation: dazling 1s linear infinite;
+  }
+  @keyframes dazling {
+    0%{
+      opacity: 1;
+      color: #0972f1;
+    }
+    50% {
+      opacity: 0;
+      
+    }
+    100%{
+      opacity: 1;
+      color: #a0f109;
+    }
+
+  }
+  .loginItem{
+    text-align: center;
+
+  }
+  .sec1{
+    text-align: center;
+    margin: 5px 5px
+  }
+  #loginbtn{
+    text-align: center;
+    border-radius: 30%;
+    margin-top: 15px;
+    border: 1px solid red;
+    background-color: #e0890e;
+
+  }
+  #loginbtn:hover{
+    cursor:pointer;
+    background-color: #62a2f1;
+  }
+  #loginbtn:active{
+    cursor:progress;
+    background-color: #afb0b1;
+  }
+  .foot1{
+    margin-top: 7px;
+    text-align: center;
+  }

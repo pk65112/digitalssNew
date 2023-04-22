@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <meta name="color-scheme" content="light dark">
+        <link rel="stylesheet" href="css/vehicleRegistration.css">
+        <title>Vehicle Registration</title>
+    </head>
+    <body>
+        <header>
+            <div id="logodiv">
+                <img src="img/logoWithoutBg.png" id="logoimg" alt="POWERGRID">
+            </div>
+            <div>
+                <h2 id="welcome">New Vehicle Registration</h1>
+            </div>
+            
+
+        </header>
+        <section>
+            
+            <div class="sec1">
+                <label for="vehNo">Vehicle No :</label>
+            </div>
+            <div class="sec1">
+                <input type="text" id="vehNo" class="loginItem" name="vehNo" >
+            </div>
+            <div class="sec1">
+                <label for="vender">Vender's Name :</label>
+            </div>
+            <div class="sec1">
+                <input type="text" id="vender" class="loginItem" name="vender" >
+            </div>
+            <div class="sec1">
+                <label for="loano">LOA No :</label>
+            </div>
+            <div class="sec1">
+                <input type="text" id="loaNo" class="loginItem" name="loano" >
+            </div>
+            <div class="sec1">
+                <label for="posting">Place of Engage:</label>
+            </div>
+            <div class="sec1">
+                <select name="posting" id="region">
+                    <option value="Choose">Choose  Region</option>
+                    <option value="odisha">Odisha Project</option>
+                    <option value="er2">ER-II</option>
+                    <option value="er1">ER-I</option>
+                </select>
+                <select name="posting1" id="unit">
+                    <option value="Choose">Choose Unit</option>
+                    <option value="Pandiabili">pandiabili ss</option>
+                    <option value="ctc">Cuttack TLM</option>
+                    <option value="kaniha">Kaniha</option>
+                </select>
+               
+            </div>
+            <div class="sec1">
+                <label for="periodfrom">Period From :</label>
+            </div>
+            <div class="sec1">
+                <input type="date" id="periodfrom" class="loginItem" name="periodfrom" >
+            </div>
+            <div class="sec1">
+                <label for="periodto">Period To :</label>
+            </div>
+            <div class="sec1">
+                <input type="date" id="periodto" class="loginItem" name="periodto" >
+            </div>
+
+            <div class="sec1">
+                <label for="amt">Contract Value in Rupees:</label>
+            </div>
+            <div class="sec1">
+                <input type="number" id="amt" class="loginItem" name="amt">
+            </div>
+            <div class="sec1">
+                <label for="kmlimit">Contract Km per Month:</label>
+            </div>
+            <div class="sec1">
+                <input type="number" id="kmlimit" class="loginItem" name="kmlimit">
+            </div>
+            <div class="sec1">
+                <label for="rsAboveKm">Contract Rate per Km Above Limit:</label>
+            </div>
+            <div class="sec1">
+                <input type="number" id="rsAboveKm" class="loginItem" name="rsAboveKm">
+            </div>
+            <div class="sec1">
+                <label for="driverwage">Driver wages :</label>
+            </div>
+            <div class="sec1">
+                <input type="number" id="driverwage" class="loginItem" name="driverwage">
+            </div>
+            <div class="sec1">
+                <label for="nightHult">Night Hulting charges :</label>
+            </div>
+            <div class="sec1">
+                <input type="number" id="nightHult" class="loginItem" name="nightHult">
+            </div>
+            <div id="btn1">
+                <button id="btnVehReg">Submit</button>
+            </div>
+
+        </section>
+        <footer>
+          
+            <span>Copy Right @ POWERGRID</span>
+
+        </footer>
+        
+        </div>
+        <script src="cordova.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>

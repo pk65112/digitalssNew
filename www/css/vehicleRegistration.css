@@ -1,0 +1,80 @@
+body {
+    background-color: aliceblue;
+    display: grid;
+    grid: auto/ auto;
+    gap: 2em;
+ 
+ }
+ 
+ #logoimg{
+     width: 100%;
+     height: auto;
+ }
+ header{
+     background-color: #dfd4c5;
+     padding: 1em;
+     border-radius: 1em 1em 4rem 4rem;
+     display: grid;
+    
+ 
+ 
+ }
+ #welcome{
+     font-size: 7vw;
+     color: #094fa5;
+     margin: opx;
+     padding: 0px;
+     border: none;
+     text-align: center;
+     font-weight: 600;
+    text-decoration: underline;
+    text-decoration: underline;
+ }
+
+   h2 {
+     font-size: 5vw;
+     text-align: center;
+     color: #563304;
+   }
+   h1 {
+    
+    text-align: center;
+    color: #563304;
+  }
+   section{
+     border: 1px solid red;
+     border-radius: 4%;
+   }
+   
+   
+   .sec1{
+     text-align: left;
+     margin: 5px 5px
+   }
+   #btn1{
+    text-align: center;
+    margin: 25px 5px
+   }
+   #btnVehReg{
+     text-align: center;
+     border-radius: 10%;
+     margin-top: 15px;
+     border: 1px solid red;
+     background-color: #e0890e;
+ 
+   }
+   #btnVehReg:hover{
+     cursor:pointer;
+     background-color: #62a2f1;
+   }
+   #btnVehReg:active{
+     cursor:progress;
+     background-color: #afb0b1;
+   }
+   .foot1{
+     margin-top: 7px;
+     text-align: center;
+   }
+   select{
+    margin: 4px;
+   }

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <meta name="color-scheme" content="light dark">
+        <link rel="stylesheet" href="css/signup.css">
+        <title>Login</title>
+    </head>
+    <body>
+        <header>
+            <div id="logodiv">
+                <img src="img/logoWithoutBg.png" id="logoimg" alt="POWERGRID">
+            </div>
+            <div>
+                <h1 id="welcome">Welcome to Digital Substation</h1>
+            </div>
+            <div>
+                <h2>400/220 KV Pandiabili GIS</h2>
+            </div>
+
+        </header>
+        <section>
+            <div>
+                <h1 id="reg">Registration</h1>
+            </div>
+            <div class="sec2">
+                <img id="dvrimg" src="" alt="">
+             </div>
+             <div id="btn2" class="btn">
+                 <button id="btnDvrPhoto">Take Photo</button>
+             </div>
+             <div class="sec2">
+                 <img id="dvrsign" src="" alt="">
+              </div>
+              <div class="hints">Image size Should not be greater than 120 px X 30 Px</div>
+              <div id="btn4" class="btn">
+                 <button id="btnDvrsignSelect">Select</button>
+             </div>
+              <div id="btn3" class="btn">
+                  <button id="btnDvrsign">Upload</button>
+              </div>
+            <div class="sec1">
+                <label for="name">Name :</label>
+            </div>
+            <div class="sec1">
+                <input type="text" id="name" class="loginItem" name="name" >
+            </div>
+            <div class="sec1">
+                <label for="empno">Employee No. :</label>
+            </div>
+            <div class="sec1">
+                <input type="text" id="empNo" class="loginItem" name="empno" placeholder="Employee No.">
+            </div>
+            <div class="sec1">
+                <label for="posting">Place of posting:</label>
+            </div>
+            <div class="sec1">
+                <select name="posting" id="region">
+                    <option value="Choose">Choose  Region</option>
+                    <option value="odisha">Odisha Project</option>
+                    <option value="er2">ER-II</option>
+                    <option value="er1">ER-I</option>
+                </select>
+                <select name="posting1" id="unit">
+                    <option value="Choose">Choose Unit</option>
+                    <option value="Pandiabili">pandiabili ss</option>
+                    <option value="ctc">Cuttack TLM</option>
+                    <option value="kaniha">Kaniha</option>
+                </select>
+               
+            </div>
+            <div class="sec1">
+                <label for="email">Email :</label>
+            </div>
+            <div class="sec1">
+                <input type="text" id="email" class="loginItem" name="email">
+            </div>
+            <div class="sec1">
+                <label for="pw">Password :</label>
+            </div>
+            <div class="sec1">
+                <input type="text" id="pw" class="loginItem" name="pw">
+            </div>
+            <div class="sec1">
+                <label for="cpw">Confirm Password :</label>
+            </div>
+            <div class="sec1">
+                <input type="text" id="cpw" class="loginItem" name="cpw">
+            </div>
+            <div id="btn1">
+                <button id="btnsignup">Submit</button>
+            </div>
+
+        </section>
+        <footer>
+          
+            <span>Copy Right @ POWERGRID</span>
+
+        </footer>
+        
+        </div>
+        <script src="cordova.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>
