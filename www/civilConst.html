@@ -8,7 +8,7 @@
         <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
         <meta name="color-scheme" content="light dark">
         <link rel="stylesheet" href="css/signup.css">
-        <title>Login</title>
+        <title>Work Package registration</title>
     </head>
     <body>
         <header>
@@ -25,38 +25,24 @@
         </header>
         <section>
             <div>
-                <h1 id="reg">Registration</h1>
+                <h1 id="reg">Work package Registration</h1>
             </div>
-            <div class="sec2">
-                <img id="userimg" src="" alt="">
-             </div>
-             <div id="btn2" class="btn">
-                 <button id="btnUserPhoto">Take Photo</button>
-             </div>
-             <div class="sec2">
-                 <img id="usersign" src="" alt="">
-              </div>
-              <div class="hints">Image size Should not be greater than 120 px X 30 Px</div>
-              <div id="btn4" class="btn">
-                 <button id="btnusersignSelect">Select</button>
-             </div>
-              <div id="btn3" class="btn">
-                  <button id="btnUsersign">Upload</button>
-              </div>
+            
+             
             <div class="sec1">
-                <label for="name">Name :</label>
+                <label for="name">Name Of package:</label>
             </div>
             <div class="sec1">
                 <input type="text" id="name" class="loginItem" name="name" >
             </div>
             <div class="sec1">
-                <label for="empno">Employee No. :</label>
+                <label for="sapPo">SAP PO No:</label>
             </div>
             <div class="sec1">
-                <input type="text" id="empNo" class="loginItem" name="empno" placeholder="Employee No.">
+                <input type="text" id="sapPo" class="loginItem" name="sapPo" >
             </div>
             <div class="sec1">
-                <label for="posting">Place of posting:</label>
+                <label for="posting">Package For Unit:</label>
             </div>
             <div class="sec1">
                 <select name="posting" id="region">
@@ -74,10 +60,16 @@
                
             </div>
             <div class="sec1">
-                <label for="email">Email :</label>
+                <label for="venderName">Vender's Name:</label>
             </div>
             <div class="sec1">
-                <input type="text" id="email" class="loginItem" name="email">
+                <input type="text" id="venderName" class="loginItem" name="venderName">
+            </div>
+            <div class="sec1">
+                <label for="vederId">Vender ID:</label>
+            </div>
+            <div class="sec1">
+                <input type="text" id="vederId" class="loginItem" name="vederId">
             </div>
             <div class="sec1">
                 <label for="pw">Password :</label>
@@ -103,38 +95,14 @@
         </footer>
         
         </div>
-        <script type="text/javascript"  src="cordova.js"></script>
-        
+        <script src="cordova.js"></script>
+        <script src="js/index.js"></script>
         <script type="text/javascript">
             let photography = {
-                initiation: function(){
-                    console.log(navigator.camera);
-                    document.getElementById('btnUserPhoto').addEventListener('click', photography.takephoto)
+                initiation: fuftion(){
 
                 },
-                takephoto: function () {
-                    let opt = {
-                        quality: 50,
-                         destinationType: Camera.DestinationType.DATA_URL,
-                         sourceType: Camera.PictureSourceType.CAMERA,
-                         mediaType: Camera.MediaType.PICTURE,
-                         cameraDirection: Camera.Direction.FRONT,
-                         targetWidth:250,
-                         targwtHeight:200
-
-                    };
-                    navigator.camera.getPicture( photography.onSucsess, photography.onFailure, opt);
-                    
-                },
-                onSucsess: function(imageData){
-                     document.getElementById('userimg').src = "data:image/jpeg;base64," + imageData;
-                },
-                onFailure: function(message){
-                    alert('Failed because: ' + message);
-                }
-                
-            };
-            document.addEventListener('deviceready',photography.initiation,false);
+            }
         </script>
     </body>
 </html>

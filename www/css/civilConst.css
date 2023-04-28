@@ -69,14 +69,11 @@ body {
      border: 1px solid red;
      border-radius: 4%;
    }
-   label{
-    color: #094fa5;
-   }
-   #userimg{
-    height: 250px;
-    width: 200px;
+   #dvrimg{
+    height: 100px;
+    width: 80px;
  }
- #usersign{
+ #dvrsign{
   height: 50px;
   width: 150px;
  }
@@ -101,10 +98,6 @@ body {
     text-align: center;
     margin: 25px 5px
    }
-   #btn1{
-    text-align: center;
-    margin: 0px 5px
-   }
    #btnsignup{
      text-align: center;
      border-radius: 10%;
@@ -128,20 +121,3 @@ body {
    select{
     margin: 4px;
    }
-   #btnUserPhoto{
-    text-align: center;
-    border-radius: 10%;
-    margin-top: 2px;
-    margin-bottom: 10px;
-    border: 1px solid rgb(154, 14, 235);
-    background-color: #82ee82;
-
-  }
-  #btnUserPhoto:hover{
-    cursor:pointer;
-    background-color: #62a2f1;
-  }
-  #btnUserPhoto:active{
-    cursor:progress;
-     background-color: #afb0b1;
-  }
